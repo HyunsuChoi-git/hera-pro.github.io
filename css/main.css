@@ -4,7 +4,7 @@
 /* Mobile Layout: 320px */
 /* Wide Mobile Layout: 480px */
 /* =================================== */
-/*  Basic Style 
+/*  Basic Style
 /* =================================== */
 ::-webkit-input-placeholder {
   /* WebKit, Blink, Edge */
@@ -1861,6 +1861,7 @@ header {
 .menu-bar span {
   color: #222222;
   font-size: 24px;
+  margin-right: 20px;
 }
 
 .main-menubar {
@@ -1868,7 +1869,7 @@ header {
 }
 
 nav {
-  margin-right: 70px;
+  margin-right: 30px;
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
@@ -1889,9 +1890,9 @@ nav {
   }
 }
 
-nav.hide {
+/* nav.hide {
   transform: scale(0);
-}
+} */
 
 nav a {
   font-size: 12px;
@@ -1922,7 +1923,7 @@ nav a:hover {
 
 body {
   background-attachment: fixed;
-  background-image: url("../img/banner-bg.jpg");
+  background-image: url("../img/bannerImg.jpg");
   background-position: top center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -2114,7 +2115,7 @@ body:after {
 }
 
 .hero-area {
-  background: url(../img/banner-bg.jpg) no-repeat center/contain;
+  background: url(../img/bannerImg.jpg) no-repeat center/contain;
   background-size: cover;
 }
 
@@ -2179,7 +2180,7 @@ body:after {
 
 .single-feature {
   background: #fff;
-  padding: 40px;
+  padding: 30px;
   margin-bottom: 30px;
 }
 
@@ -2188,6 +2189,9 @@ body:after {
   font-weight: 600;
   letter-spacing: 2px;
   margin-bottom: 20px;
+}
+.education {
+  text-align: center;
 }
 
 .single-feature p {
@@ -2251,41 +2255,54 @@ body:after {
     min-height: 188px;
   }
 }
+.projectImg{
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 15px;
+}
+.projectDt {
+  display: none;
+  margin: 0 auto;
 
+}
 .view-details {
   color: #a387ff;
   background: #fff;
   font-weight: 600;
   font-size: 14px;
-  display: block;
-  padding: 20px;
+  padding: 10px;
   margin-bottom: 20px;
+  border-radius: 5px;
 }
 
-.single-feat2 .count {
+.single-feat2 {
   padding-right: 20px;
+  margin-bottom: 40px;
+  margin-top: 30px;
 }
 
-.single-feat2 .count h1 {
+.single-feat2 h1 {
   color: #a387ff;
   font-size: 48px;
+  text-align: center;
+  display: inline;
 }
-
 .single-feat2 h2 {
   font-size: 1.125em;
   font-weight: 600;
   letter-spacing: 2px;
   margin-top: 10px;
   margin-bottom: 10px;
+  display: inline;
 }
 
 .single-feat2 h2:before {
-  content: "-";
   display: inline-block;
   vertical-align: middle;
 }
 
 .single-feat2 .desc p {
+  display: inline;
   line-height: 25px;
 }
 
@@ -2391,7 +2408,7 @@ body:after {
 .footer-social {
   text-align: center;
   margin-top: 40px;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
 }
 
 .footer-social a {
@@ -2408,6 +2425,10 @@ body:after {
 
 .footer-content a {
   color: #a387ff;
+}
+.footer-content p {
+  margin-bottom: 40px;
+  font-weight: 500;
 }
 
 .generic-banner .banner-content h1 {

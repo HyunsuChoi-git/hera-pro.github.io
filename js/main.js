@@ -12,16 +12,16 @@ $(document).ready(function(){
 	$(".fullscreen").css("height", window_height)
 	$(".fitscreen").css("height", fitscreen);
 
-     
+
      // -------   Active Mobile Menu-----//
 
-    $(".menu-bar").on('click', function(e){
-        e.preventDefault();
-        $("nav").toggleClass('hide');
-        $("span", this).toggleClass("lnr-menu lnr-cross");
-        $(".main-menu").addClass('mobile-menu');
-    });
-     
+    // $(".menu-bar").on('click', function(e){
+    //     e.preventDefault();
+    //     $("nav").toggleClass('hide');
+    //     $("span", this).toggleClass("lnr-menu lnr-cross");
+    //     $(".main-menu").addClass('mobile-menu');
+    // });
+
     $('select').niceSelect();
     $('.img-pop-up').magnificPopup({
         type: 'image',
@@ -31,7 +31,7 @@ $(document).ready(function(){
     });
 
 
-    //  Counter Js 
+    //  Counter Js
 
     $('.counter').counterUp({
         delay: 10,
@@ -43,6 +43,6 @@ $(document).ready(function(){
 
     $(document).ready(function() {
         $('#mc_embed_signup').find('form').ajaxChimp();
-    });      
+    });
 
  });
