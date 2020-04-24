@@ -1,48 +1,144 @@
+$(document).ready(function(){
+		$('.homeBts').click(function(){
+			var offset = $('.container').offset();
+        console.log("하위");
+	        $('html, body').animate({scrollTop : offset.top}, 400);
+		});
 
-// $(document).ready(function(){
-// 	"use strict";
-//
-// 	var window_width 	 = $(window).width(),
-// 	window_height 		 = window.innerHeight,
-// 	header_height 		 = $(".default-header").height(),
-// 	header_height_static = $(".site-header.static").outerHeight(),
-// 	fitscreen 			 = window_height - header_height;
-//
-//
-// 	$(".fullscreen").css("height", window_height)
-// 	$(".fitscreen").css("height", fitscreen);
-//
+    $('.profileBts').click(function(){
+			var offset = $('.main-wrapper').offset();
+      console.log(offset);
+	        $('html, body').animate({scrollTop : offset.top}, 400);
+		});
 
-     // -------   Active Mobile Menu-----//
+    $('.skillsBts').click(function(){
+			var offset = $('.feature-area').offset();
+	        $('html, body').animate({scrollTop : offset.top}, 400);
+		});
 
-    // $(".menu-bar").on('click', function(e){
-    //     e.preventDefault();
-    //     $("nav").toggleClass('hide');
-    //     $("span", this).toggleClass("lnr-menu lnr-cross");
-    //     $(".main-menu").addClass('mobile-menu');
-    // });
+    $('.educationBts').click(function(){
+			var offset = $('.feature-bottom-area').offset();
+	        $('html, body').animate({scrollTop : offset.top}, 400);
+		});
 
-    // $('select').niceSelect();
-    // $('.img-pop-up').magnificPopup({
-    //     type: 'image',
-    //     gallery:{
-    //     enabled:true
-    //     }
-    // });
+    $('.projectBts').click(function(){
+			var offset = $('.subscription-area').offset();
+	        $('html, body').animate({scrollTop : offset.top}, 400);
+		});
 
 
-    //  Counter Js
-		//
-    // $('.counter').counterUp({
-    //     delay: 10,
-    //     time: 1000
-    // });
+    ////////////////////////////////////////////////////////////
+    var hoverCount=0;
+    $("#mepetImg1").hover(function(){
+      if(hoverCount==0){
+        $("#mepetText1").toggle();
+        $("#mepetImg1 > img").css("opacity", "0.3");
+        hoverCount++;
+      }
+      else if(hoverCount==1){
+        $("#mepetText1").toggle();
+        $("#mepetImg1 > img").css("opacity", "1");
+        hoverCount--;
+      }
+    });
+    $("#mepetImg2").hover(function(){
+      if(hoverCount==0){
+        $("#mepetText2").toggle();
+        $("#mepetImg2 > img").css("opacity", "0.3");
+        hoverCount++;
+      }
+      else if(hoverCount==1){
+        $("#mepetText2").toggle();
+        $("#mepetImg2 > img").css("opacity", "1");
+        hoverCount--;
+      }
+    });
+    $("#mepetImg3").hover(function(){
+      if(hoverCount==0){
+        $("#mepetText3").toggle();
+        $("#mepetImg3 > img").css("opacity", "0.3");
+        hoverCount++;
+      }
+      else if(hoverCount==1){
+        $("#mepetText3").toggle();
+        $("#mepetImg3 > img").css("opacity", "1");
+        hoverCount--;
+      }
+    });
 
+    $("#btsImg1").hover(function(){
+      if(hoverCount==0){
+        $("#btsText1").toggle();
+        $("#btsImg1 > img").css("opacity", "0.3");
+        hoverCount++;
+      }
+      else if(hoverCount==1){
+        $("#btsText1").toggle();
+        $("#btsImg1 > img").css("opacity", "1");
+        hoverCount--;
+      }
+    });
+    $("#btsImg2").hover(function(){
+      if(hoverCount==0){
+        $("#btsText2").toggle();
+        $("#btsImg2 > img").css("opacity", "0.3");
+        hoverCount++;
+      }
+      else if(hoverCount==1){
+        $("#btsText2").toggle();
+        $("#btsImg2 > img").css("opacity", "1");
+        hoverCount--;
+      }
+    });
+    $("#btsImg3").hover(function(){
+      if(hoverCount==0){
+        $("#btsText3").toggle();
+        $("#btsImg3 > img").css("opacity", "0.3");
+        hoverCount++;
+      }
+      else if(hoverCount==1){
+        $("#btsText3").toggle();
+        $("#btsImg3 > img").css("opacity", "1");
+        hoverCount--;
+      }
+    });
 
-    // Add smooth scrolling to Menu links
+    $("#chatImg1").hover(function(){
+      if(hoverCount==0){
+        $("#chatText1").toggle();
+        $("#chatImg1 > img").css("opacity", "0.3");
+        hoverCount++;
+      }
+      else if(hoverCount==1){
+        $("#chatText1").toggle();
+        $("#chatImg1 > img").css("opacity", "1");
+        hoverCount--;
+      }
+    });
+    $("#chatImg2").hover(function(){
+      if(hoverCount==0){
+        $("#chatText2").toggle();
+        $("#chatImg2 > img").css("opacity", "0.3");
+        hoverCount++;
+      }
+      else if(hoverCount==1){
+        $("#chatText2").toggle();
+        $("#chatImg2 > img").css("opacity", "1");
+        hoverCount--;
+      }
+    });
+    $("#chatImg3").hover(function(){
+      if(hoverCount==0){
+        $("#chatText3").toggle();
+        $("#chatImg3 > img").css("opacity", "0.3");
+        hoverCount++;
+      }
+      else if(hoverCount==1){
+        $("#chatText3").toggle();
+        $("#chatImg3 > img").css("opacity", "1");
+        hoverCount--;
+      }
+    });
 
-    // $(document).ready(function() {
-    //     $('#mc_embed_signup').find('form').ajaxChimp();
-    // });
-
- // });
+  });
+//////////////////////////////////////////////////////////////

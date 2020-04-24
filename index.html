@@ -39,13 +39,13 @@
 								</div>
 								<div class="main-menubar d-flex align-items-center">
 									<nav>
-										<a href="index.html">Home</a>
-										<a href="index.html">Profile</a>
-										<a href="index.html">Skills</a>
-										<a href="index.html">Education</a>
-										<a href="index.html">Project</a>
+										<a href="#" class="homeBts">Home</a>
+										<a href="#" class="profileBts">Profile</a>
+										<a href="#" class="skillsBts">Skills</a>
+										<a href="#" class="educationBts">Education</a>
+										<a href="#" class="projectBts">Project</a>
 									</nav>
-									<div class="menu-bar"><span class="lnr lnr-menu"></span></div>
+									<div class="menu-bar"><span class="lnr lnr-menu"><i class="fas fa-bars"></i></span></div>
 								</div>
 							</div>
 						</div>
@@ -89,7 +89,7 @@
 								<i class="fas fa-mobile-alt"></i>&nbsp 010-3252-1054
 							</p>
 							<p>
-								<a href="#"><img src="img/blogIcon.jpg" width="50px"></a>
+								<a href="https://blog.naver.com/loveyou_a_a"><img src="img/blogIcon.jpg" width="50px"></a>
 								<a href="#"><img src="img/gitIcon.jpg" width="50px"></a>
 							</p>
 						</div>
@@ -217,21 +217,20 @@
 						</div>
 
 						<div class="projectImg mepetImg" id="mepetImg1">
-							<img src="img/mepetImg/mepet1.jpg" width="80%"/><br/>
-						</div>
-						<div class="projectDt mepetImg" id="mepetText1">
+							<img src="img/mepetImg/mepet1.jpg" width="100%"/>
+							<div class="projectDt mepetImg" id="mepetText1">
 								<h5><strong>펫시터로 등록된 유저가 홍보글을 올리는 게시판.</strong></h5>
 								<p>
 									펫시터를 구하는 유저들에게 필요한 펫시터 정보를 게시판 제목단에 간략하게 넣은
 									게시판 형식의 페이지입니다.
 									사이트는 JSP를 이용하여 만들었고 Oracle DB와 JDBC API를 이용하여 데이터를 저장하고 가져옵니다.
 								</p>
-								<a class="text-uppercase view-details" href="#">View Details</a>
+								<a class="text-uppercase view-details" href="https://github.com/HyunsuChoi-git/MEPETproject">View Details</a>
+							</div>
 						</div>
 						<div class="projectImg mepetImg" id="mepetImg2">
-							<img src="img/mepetImg/mepet2.jpg" width="80%"/><br/>
-						</div>
-						<div class="projectDt mepetImg" id="mepetText2">
+							<img src="img/mepetImg/mepet2.jpg" width="100%"/>
+							<div class="projectDt mepetImg" id="mepetText2">
 								<h5><strong>펫시터로 등록된 유저의 펫시터페이지.</strong></h5>
 								<p>
 									펫시터 전용 마이페이지로 첫 화면 펫시터의 활동 점수가 보이도록 구현하였습니다.
@@ -239,18 +238,19 @@
 									총 포인트와 후기 갯수를 나눠 평점 제도를 만들었습니다. 그리고 평점을 토대로 상, 중, 하로 나누었습니다.
 									정보를 수정할 수있고, 내 펫시터 홍보글과 후기글을 볼 수 있는 버튼을 만들었습니다.
 								</p>
-								<a class="text-uppercase view-details" href="#">View Details</a>
+								<a class="text-uppercase view-details" href="https://github.com/HyunsuChoi-git/MEPETproject">View Details</a>
+							</div>
 						</div>
 						<div class="projectImg mepetImg" id="mepetImg3">
-							<img src="img/mepetImg/mepet_4.jpg" width="80%"/><br/>
-						</div>
-						<div class="projectDt mepetImg" id="mepetText3">
+							<img src="img/mepetImg/mepet_4.jpg" width="100%"/>
+							<div class="projectDt mepetImg" id="mepetText3">
 								<h5><strong>관리자가 회원을 관리할 수 있는 관리자 전용 페이지.</strong></h5>
 								<p>
 									관리자 전용 페이지를 만들어 게시글과 회원정보를 관리할 수 있도록 구현하였습니다. 그 중 회원을 관리하는
 									페이지의 코드와 화면입니다. 회원 정보를 list형식으로 뽑아왔고, 정보를 수정하거나 탈퇴를 진행할 수 있습니다.
 								</p>
-								<a class="text-uppercase view-details" href="#">View Details</a>
+								<a class="text-uppercase view-details" href="https://github.com/HyunsuChoi-git/MEPETproject">View Details</a>
+							</div>
 						</div>
 						<!--2번째 프로젝트 -->
 						<div class="single-feat2 justify-content-between align-items-top">
@@ -265,9 +265,8 @@
 						</div>
 
 						<div class="projectImg btsImg" id="btsImg1">
-							<img src="img/btsImg/btsImg.jpg" width="80%"/><br/>
-						</div>
-						<div class="projectDt btsImg" id="btsText1">
+							<img src="img/btsImg/btsImg.jpg" width="100%"/><br/>
+							<div class="projectDt btsImg" id="btsText1">
 								<h5><strong>지역과 검색어 설정 후 보이는 페이지와 채팅 페이지.</strong></h5>
 								<p>
 									지역에서 위도와 경도를 뽑아 카카오 API를 이용하여 대략 적인 범위의 지도를 화면에 띄우고,
@@ -276,33 +275,34 @@
 									채팅은 Jquery와 Ajax를 이용해 채팅 변경사항을 계속 Json파일에 저장하고 채팅창을 초단위로 리로드하여 사용자간 실시간으로 채팅할
 									수 있도록 구현하였습니다.
 								</p>
-								<a class="text-uppercase view-details" href="#">View Details</a>
+								<a class="text-uppercase view-details" href="https://github.com/HyunsuChoi-git/BTSproject">View Details</a>
+							</div>
 						</div>
 
 						<div class="projectImg btsImg" id="btsImg2">
-							<img src="img/btsImg/bts_mybatis.jpg" width="80%"/><br/>
-						</div>
-						<div class="projectDt btsImg" id="btsText2">
+							<img src="img/btsImg/bts_mybatis.jpg" width="100%"/><br/>
+							<div class="projectDt btsImg" id="btsText2">
 								<h5><strong>Oracle DataBase와 Mybatis의 사용.</strong></h5>
 								<p>
 									사이트 개발 시 Oracle DataBase를 사용하여 데이터를 관리하였고, Mybatis를 이용하여 spring MVC 패턴 중
 									Model 부분에서 데이터베이스의 데이터를 update,insert,select 하였습니다.
 								</p>
-								<a class="text-uppercase view-details" href="#">View Details</a>
+								<a class="text-uppercase view-details" href="https://github.com/HyunsuChoi-git/BTSproject">View Details</a>
+							</div>
 						</div>
 
 						<div class="projectImg btsImg" id="btsImg3">
-							<img src="img/btsImg/bts_userInfo.jpg" width="80%"/><br/>
-						</div>
-						<div class="projectDt btsImg" id="btsText3">
-							<h5><strong>참여자와 유저정보를 띄우는 로직.</strong></h5>
-							<p>
-								채팅방 입장 시, 참여하는 참여자들의 닉네임을 화면에 띄우고,
-								참여자의 '정보보기' 버튼을 누르면 유저정보 팝업창을 띄우는 로직입니다.
-								참여자가 입장하고 퇴장하는 것이 실시간으로 바뀌어야하는 참여자 정보는 Ajax와 JQuery를 이용하여
-								데이터가 변경될 때마다 저장하고, 지정한 초마다 저장된 데이터가 화면에 리로드 되도록 구현하였습니다.
-							</p>
-							<a class="text-uppercase view-details" href="#">View Details</a>
+							<img src="img/btsImg/bts_userInfo.jpg" width="100%"/><br/>
+							<div class="projectDt btsImg" id="btsText3">
+								<h5><strong>참여자와 유저정보를 띄우는 로직.</strong></h5>
+								<p>
+									채팅방 입장 시, 참여하는 참여자들의 닉네임을 화면에 띄우고,
+									참여자의 '정보보기' 버튼을 누르면 유저정보 팝업창을 띄우는 로직입니다.
+									참여자가 입장하고 퇴장하는 것이 실시간으로 바뀌어야하는 참여자 정보는 Ajax와 JQuery를 이용하여
+									데이터가 변경될 때마다 저장하고, 지정한 초마다 저장된 데이터가 화면에 리로드 되도록 구현하였습니다.
+								</p>
+								<a class="text-uppercase view-details" href="https://github.com/HyunsuChoi-git/BTSproject">View Details</a>
+							</div>
 						</div>
 
 					<!--3번째 프로젝트 -->
@@ -318,45 +318,45 @@
 						</div>
 
 						<div class="projectImg chatImg" id="chatImg1">
-							<img src="img/chatImg/chat1.jpg" width="80%"/><br/>
-						</div>
-						<div class="projectDt chatImg" id="chatText1">
-							<h5><strong>채팅방 개설 시, 유저의 첫 입장 시.</strong></h5>
-							<p>
-								채팅방 개설 시, 유저의 첫 입장 시 실행되는 기능들을 모아 function으로 만들엇습니다.
-								socket은 페이지 이동시에 계속해서 변하기때문에 채팅에 참여하는 유저가 페이지 이동 후
-								다시 입장하여도 기록이 그대로 남아있도록 닉네임을 저장하여 유저를 기억하였습니다.
-							</p>
-							<a class="text-uppercase view-details" href="#">View Details</a>
+							<img src="img/chatImg/chat1.jpg" width="100%"/><br/>
+							<div class="projectDt chatImg" id="chatText1">
+								<h5><strong>채팅방 개설 시, 유저의 첫 입장 시.</strong></h5>
+								<p>
+									채팅방 개설 시, 유저의 첫 입장 시 실행되는 기능들을 모아 function으로 만들엇습니다.
+									socket은 페이지 이동시에 계속해서 변하기때문에 채팅에 참여하는 유저가 페이지 이동 후
+									다시 입장하여도 기록이 그대로 남아있도록 닉네임을 저장하여 유저를 기억하였습니다.
+								</p>
+								<a class="text-uppercase view-details" href="https://github.com/HyunsuChoi-git/node.js-socket.io-">View Details</a>
+							</div>
 						</div>
 						<div class="projectImg chatImg" id="chatImg2">
-							<img src="img/chatImg/chat2.jpg" width="80%"/><br/>
+							<img src="img/chatImg/chat2.jpg" width="100%"/><br/>
+							<div class="projectDt chatImg" id="chatText2">
+								<h5><strong>실시간 채팅 주요기능 (메세지 주고받기/퇴장/강퇴)</strong></h5>
+								<p>
+									실시간 채팅의 주요 기능이 담긴 코드입니다.
+									그 중 강퇴기능은 방장에게만 주어지는 기능으로 강퇴를 누르면 대상 유저의 현재 소켓id에게
+									강퇴 알림 메세지를 보낸 후 페이지를 이동시키고, 채팅정보가 저장된 json파일에서 유저의 정보를 삭제합니다.
+								</p>
+								<a class="text-uppercase view-details" href="https://github.com/HyunsuChoi-git/node.js-socket.io-">View Details</a>
+							</div>
 						</div>
 
-						<div class="projectDt chatImg" id="chatText2">
-							<h5><strong></strong></h5>
-							<p>
-								실시간 채팅의 주요 기능이 담긴 코드입니다.
-								그 중 강퇴기능은 방장에게만 주어지는 기능으로 강퇴를 누르면 대상 유저의 현재 소켓id에게
-								강퇴 알림 메세지를 보낸 후 페이지를 이동시키고, 채팅정보가 저장된 json파일에서 유저의 정보를 삭제합니다.
-							</p>
-							<a class="text-uppercase view-details" href="#">View Details</a>
-						</div>
 						<div class="projectImg chatImg" id="chatImg3">
-							<img src="img/chatImg/chat3.jpg" width="80%"/><br/>
+							<img src="img/chatImg/chat3.jpg" width="100%"/><br/>
+							<div class="projectDt chatImg" id="chatText3">
+								<h5><strong>참여자 재입장 시 이전 채팅 내역 리로드.</strong></h5>
+								<p>
+									채팅 참여 유저가 채팅방에 재입장 했을 경우, 채팅내역을 리로드 해주는 로직입니다.
+									메세지 저장 시 닉네임,내용,시간을 함께 저장하였고
+									유저 재입장 시, 채팅방의 모든 채팅내용을 리로드하는 것이 아니라
+									유저의 첫 입장 시간 이후의 메세지들부터 리로드 하도록 코딩하였습니다.
+									(유저 첫 입장 전 메세지는 볼 수 없도록)
+								</p>
+								<a class="text-uppercase view-details" href="https://github.com/HyunsuChoi-git/node.js-socket.io-">View Details</a>
+							</div>
 						</div>
 
-						<div class="projectDt chatImg" id="chatText3">
-							<h5><strong></strong></h5>
-							<p>
-								채팅 참여 유저가 채팅방에 재입장 했을 경우, 채팅내역을 리로드 해주는 로직입니다.
-								메세지 저장 시 닉네임,내용,시간을 함께 저장하였고
-								유저 재입장 시, 채팅방의 모든 채팅내용을 리로드하는 것이 아니라
-								유저의 첫 입장 시간 이후의 메세지들부터 리로드 하도록 코딩하였습니다.
-								(유저 첫 입장 전 메세지는 볼 수 없도록)
-							</p>
-							<a class="text-uppercase view-details" href="#">View Details</a>
-						</div>
 
 					</div>
 				</div>
@@ -367,25 +367,25 @@
 					<div class="row d-flex justify-content-center">
 						<ul class="footer-menu">
 							<li>
-								<a href="index.html">Home</a>
+								<a href="#" class="homeBts">Home</a>
 							</li>
 							<li>
-								<a href="index.html">Profile</a>
+								<a href="#" class="profileBts">Profile</a>
 							</li>
 							<li>
-								<a href="index.html">Skills</a>
+								<a href="#" class="skillsBts">Skills</a>
 							</li>
 							<li>
-								<a href="index.html">Education</a>
+								<a href="#" class="educationBts">Education</a>
 							</li>
 							<li>
-								<a href="index.html">Project</a>
+								<a href="#" class="projectBts">Project</a>
 							</li>
 						</ul>
 					</div>
 					<footer>
 							<div class="footer-social">
-								<a href="#"><img src="img/blogIcon.jpg" width="50px"></a>
+								<a href="https://blog.naver.com/loveyou_a_a"><img src="img/blogIcon.jpg" width="50px"></a>
 								<a href="#"><img src="img/gitIcon.jpg" width="50px"></a>
 							</div>
 							<div class="footer-content">
@@ -402,6 +402,8 @@
 		<script src="js/vendor/jquery-2.2.4.min.js"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
 		<script src="js/vendor/bootstrap.min.js"></script>
+		<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+
 		<!-- <script src="js/jquery.ajaxchimp.min.js"></script>
 		<script src="js/jquery.nice-select.min.js"></script> -->
 		<!-- <script src="js/jquery.magnific-popup.min.js"></script>
